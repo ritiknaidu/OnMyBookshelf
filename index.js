@@ -9,7 +9,7 @@ var seedDB = require("./views/seeds");
 
 seedDB();
 
-mongoose.connect("mongodb://localhost/on_my_bookshelf", {
+mongoose.connect("mongodb+srv://Karthik:Karthik123@onmybookshelf.57xdn.mongodb.net/OnMyBookshelf?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
